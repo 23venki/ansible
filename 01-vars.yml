@@ -12,11 +12,11 @@
   tasks:
     - name: print URL1 variables
       ansible.builtin.debug:
-        msg: "{{ URL1 }}""
+        msg: "{{ URL1 }}"
       vars:
-        URL1: example.com
+        URL1: sample.com
     - name: print URL2 variables
       ansible.builtin.debug:
-        msg: "{{ URL2 }}""
+        msg: "{{ URL2 }}"
       vars:
         URL2: example.com
