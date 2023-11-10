@@ -29,4 +29,4 @@
       register: OUT
     - name: print out var
       ansible.builtin.debug:
-        msg: "{{ OUT }}""
+        msg: "{{ OUT }}"
